@@ -1,0 +1,5 @@
+JSX 代表 Objects
+- Babel转译器会把JSX转换成一个名为 React.createElement() の方法调用。
+
+组件名称必须以大写字母开头
+

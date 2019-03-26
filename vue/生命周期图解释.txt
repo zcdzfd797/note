@@ -1,0 +1,22 @@
+初始化
+init结束瞬间自动执行beforeCreate
+初始化数据 创建vue实例 自动执行 created
+判断el是否有实例 没有则需手动vm.$mount(el)--> 是否有模版--没有则将html样式作为模版
+模版与数据准备就绪时自动执行 beforeMount
+创建真实元素，把页面标签替换成最终生成的内容 后自动执行 mounted
+
+vm.$destroy() 手动调用销毁
+beforeDestroy 即将被销毁
+destroyed 销毁 组件失效
+
+数据发生变化 则执行
+beforeUpdate
+updated
+
+
+常用
+created
+mounted
+beforeUpdate
+updated
+
